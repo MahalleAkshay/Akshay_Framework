@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Resonantia Automation Test Suite">
+
+	<listeners>
+		<listener
+			class-name="com.resonantiatechnologie.amazon.extentreport.ExtentReportConfig"></listener>
+
+		<listener
+			class-name="com.resonantiatechnologie.amazon.utility.TestNGListener"></listener>
+
+
+	</listeners>
+
+	<test thread-count="5" name="Amazon application Test Cases">
+		<classes>
+			<class
+				name="com.resonantiatechnologie.amazon.pom.testcases.AmazonPrimeTestCases"></class>
+		</classes>
+	</test>
+</suite>

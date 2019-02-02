@@ -1,0 +1,12 @@
+2019-Jan-31 20:03:10,588 [main] com.resonantiatechnologie.amazon.keywords.Keyword 
+  INFO  locate WebElement on Page
+2019-Jan-31 20:03:12,332 [main] com.resonantiatechnologie.amazon.keywords.Keyword 
+  INFO  Mouse movement done successfully
+2019-Jan-31 20:03:12,366 [main] com.resonantiatechnologie.amazon.keywords.Keyword 
+  INFO  locate WebElement on Page
+2019-Jan-31 20:03:24,988 [main] com.resonantiatechnologie.amazon.keywords.Keyword 
+  INFO  Succesfully click on WebElement
+2019-Jan-31 20:03:24,996 [main] com.resonantiatechnologie.amazon.keywords.Keyword 
+  INFO  Implicite wait is applied for
+2019-Jan-31 20:03:33,887 [main] com.resonantiatechnologie.amazon.keywords.Keyword 
+  INFO  Screenshot has been taken

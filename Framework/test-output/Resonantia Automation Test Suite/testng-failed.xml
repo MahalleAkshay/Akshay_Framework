@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Resonantia Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.resonantiatechnologie.amazon.extentreport.ExtentReportConfig"/>
+    <listener class-name="com.resonantiatechnologie.amazon.utility.TestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="Amazon application Test Cases(failed)">
+    <classes>
+      <class name="com.resonantiatechnologie.amazon.pom.testcases.AmazonPrimeTestCases">
+        <methods>
+          <include name="test"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.resonantiatechnologie.amazon.pom.testcases.AmazonPrimeTestCases -->
+    </classes>
+  </test> <!-- Amazon application Test Cases(failed) -->
+</suite> <!-- Failed suite [Resonantia Automation Test Suite] -->
